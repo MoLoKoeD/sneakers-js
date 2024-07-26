@@ -1,0 +1,52 @@
+@mixin listReset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin btnReset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@mixin sectionTitle {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+@mixin sectionDescr {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+@mixin sectionOffset {
+  padding-bottom: 100px;
+}
+
+@mixin headerLinksFocus {
+  outline: none;
+  transition: color .3s ease-in-out;
+  color: $redHover;
+}
+
+@mixin headerLinksHover {
+  transition: color .3s ease-in-out;
+  color: $redHover;
+}
+
+@mixin headerLinksActive {
+  transition: color .3s ease-in-out;
+  color: $redActive;
+}
